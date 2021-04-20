@@ -1,6 +1,6 @@
 {
   "name": "falcon-react",
-  "version": "2.10.1",
+  "version": "2.10.2",
   "main": "src/Main.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",

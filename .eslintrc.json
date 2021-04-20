@@ -2,7 +2,7 @@
   "extends": ["react-app", "prettier", "plugin:react/recommended"],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "warning",
+    "prettier/prettier": 1,
     "react/no-unescaped-entities": 0,
     "react/prop-types": 0,
     "react/display-name": 0,
