@@ -3,7 +3,11 @@ import PropTypes from 'prop-types';
 import AppContext from './context/Context';
 import { settings } from './config';
 import toggleStylesheet from './helpers/toggleStylesheet';
-import { getItemFromStore, setItemToStore, themeColors } from './helpers/utils';
+import { getItemFromStore, getPaginationArray, isIterableArray, setItemToStore, themeColors } from './helpers/utils';
+import Flex from './components/common/Flex';
+import ButtonIcon from './components/common/ButtonIcon';
+import cloudUpload from './assets/img/icons/cloud-upload.svg';
+import ToggleButton from './components/navbar/ToggleButton';
 
 const Main = props => {
   const [isFluid, setIsFluid] = useState(getItemFromStore('isFluid', settings.isFluid));
@@ -119,4 +123,4 @@ const Main = props => {
 
 Main.propTypes = { children: PropTypes.node };
 
-export default Main;
+export { ButtonIcon, cloudUpload, Flex, getPaginationArray, isIterableArray, Main as default, ToggleButton };

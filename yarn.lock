@@ -7929,9 +7929,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"falcon@workspace:.":
+"falcon-react@workspace:.":
   version: 0.0.0-use.local
-  resolution: "falcon@workspace:."
+  resolution: "falcon-react@workspace:."
   dependencies:
     "@fortawesome/fontawesome-free": ^5.15.1
     "@fortawesome/fontawesome-svg-core": ^1.2.30
