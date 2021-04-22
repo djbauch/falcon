@@ -6,6 +6,8 @@ frontend:
         - yarn install
     build:
       commands:
+        - yarn run webpack info
+        - yarn run webpack --version
         - yarn run build
   artifacts:
     baseDirectory: build
