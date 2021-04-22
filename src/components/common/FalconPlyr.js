@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-// import 'plyr/dist/plyr.css';
-// import Plyr from 'plyr';
+import Plyr from 'plyr-react';
+import 'plyr-react/dist/plyr.css';
 
 const FalconPlyr = ({ type, videoId }) => {
   const plyrRef = useRef();
 
-  // useEffect(() => {
-  //   new Plyr(plyrRef.current);
-  // }, []);
+  useEffect(() => {
+    new Plyr(plyrRef.current);
+  }, []);
 
   switch (type) {
     case 'youtube':
