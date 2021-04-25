@@ -1,7 +1,7 @@
 {
   "name": "falcon-react",
   "version": "2.10.3",
-  "main": "src/Main.js",
+  "main": "src/Main.jsx",
   "babel": {
     "presets": [
       "@babel/preset-react"
