@@ -2793,6 +2793,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/history@npm:*":
+  version: 4.7.8
+  resolution: "@types/history@npm:4.7.8"
+  checksum: 54020371a412e949d0a329cc325253f16daf5b33e2e485135d39d3b30d3f9a8e323b00ce1162da82387c8ecf0397a8da49ad36ab309f06284326c064092879c7
+  languageName: node
+  linkType: hard
+
 "@types/hoist-non-react-statics@npm:^3.3.0":
   version: 3.3.1
   resolution: "@types/hoist-non-react-statics@npm:3.3.1"
@@ -2835,6 +2842,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/jest@npm:^26.0.22":
+  version: 26.0.22
+  resolution: "@types/jest@npm:26.0.22"
+  dependencies:
+    jest-diff: ^26.0.0
+    pretty-format: ^26.0.0
+  checksum: 4c98ed058522f6cc74bcb47b8b7b104b77b2d4e42e087171f3d2d3ae5338c21f43ec26f2a186bc229c1bd72c3f776ad07faba837f0ec27f22cf94e154516c0b3
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:*, @types/json-schema@npm:^7.0.3, @types/json-schema@npm:^7.0.5, @types/json-schema@npm:^7.0.6":
   version: 7.0.7
   resolution: "@types/json-schema@npm:7.0.7"
@@ -2873,7 +2890,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^14.14.41":
   version: 14.14.41
   resolution: "@types/node@npm:14.14.41"
   checksum: 37dfb639644c8ee9b9846106834983f590d494b855e74645a4f169ea24199f7559366d25f6e72e83ba940b59eb6370e002bd53963d098d6d9fdf935a37011417
@@ -2924,6 +2941,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@types/react-dom@npm:17.0.3"
+  dependencies:
+    "@types/react": "*"
+  checksum: 9314c91a985f153591e1e74aef3d63d8b22e098069773f32745bf0733740a49802731761a46da8788a7d3dd2c21346036f12c2c24627630e5a6210b120a650e6
+  languageName: node
+  linkType: hard
+
 "@types/react-redux@npm:^7.1.16":
   version: 7.1.16
   resolution: "@types/react-redux@npm:7.1.16"
@@ -2936,6 +2962,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-router-dom@npm:^5.1.7":
+  version: 5.1.7
+  resolution: "@types/react-router-dom@npm:5.1.7"
+  dependencies:
+    "@types/history": "*"
+    "@types/react": "*"
+    "@types/react-router": "*"
+  checksum: c5afe043f99cbe8e05e85db5b95b5fd724e7b00e0314b8bbc081e36c113e22fd102cd0c7a957c7ad55a55d2def91c17b07ffba45c2ac4a00cc56c5c927c93d4c
+  languageName: node
+  linkType: hard
+
+"@types/react-router@npm:*":
+  version: 5.1.13
+  resolution: "@types/react-router@npm:5.1.13"
+  dependencies:
+    "@types/history": "*"
+    "@types/react": "*"
+  checksum: e5e2fe474b2d14030d93dadcd00eaf223c150f64ca00a6b32537d560442e7557444a967002416e1470cea07d1ada689459df62e27c8009263050126e4d435e5f
+  languageName: node
+  linkType: hard
+
 "@types/react-transition-group@npm:^2.0.8":
   version: 2.9.2
   resolution: "@types/react-transition-group@npm:2.9.2"
@@ -2945,7 +2992,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:^17.0.3":
   version: 17.0.3
   resolution: "@types/react@npm:17.0.3"
   dependencies:
@@ -3927,6 +3974,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"aphrodite@npm:1.1.0":
+  version: 1.1.0
+  resolution: "aphrodite@npm:1.1.0"
+  dependencies:
+    asap: ^2.0.3
+    inline-style-prefixer: ^2.0.0
+  checksum: fe5723dbcf53033d1b4bad23b1d1faf4524c81fd24dc5fd5bc5bf743b44e7cf52e19971608ca4cc9fd71c64d9e3e82f2593cab096cf7f2820c59fde124d28c4e
+  languageName: node
+  linkType: hard
+
 "append-buffer@npm:^1.0.2":
   version: 1.0.2
   resolution: "append-buffer@npm:1.0.2"
@@ -4194,7 +4251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"asap@npm:~2.0.3, asap@npm:~2.0.6":
+"asap@npm:^2.0.3, asap@npm:~2.0.3, asap@npm:~2.0.6":
   version: 2.0.6
   resolution: "asap@npm:2.0.6"
   checksum: 3d314f8c598b625a98347bacdba609d4c889c616ca5d8ea65acaae8050ab8b7aa6630df2cfe9856c20b260b432adf2ee7a65a1021f268ef70408c70f809e3a39
@@ -4891,6 +4948,13 @@ __metadata:
     jquery: 1.9.1 - 3
     popper.js: ^1.16.1
   checksum: 66019b6969b997eb3bcec7276010263df643b2607db00dbbd13f451d6f6d57fa5b563cd9712a4814024e5489faf5e2d73c553a1ebea1b61d0e1ab766e4805229
+  languageName: node
+  linkType: hard
+
+"bowser@npm:^1.0.0":
+  version: 1.9.4
+  resolution: "bowser@npm:1.9.4"
+  checksum: 6550d42547b878da87c6d2c1b0a0e4aeed894c914fd7052e950a03c78d6d97bc62d4e9d98a8073150ed7723eccf5499a24640d5a79828d48011df08b8c0237bd
   languageName: node
   linkType: hard
 
@@ -8367,6 +8431,11 @@ __metadata:
     "@fullcalendar/timegrid": ^5.3.1
     "@loadable/component": ^5.13.2
     "@popperjs/core": ^2.9.2
+    "@types/jest": ^26.0.22
+    "@types/node": ^14.14.41
+    "@types/react": ^17.0.3
+    "@types/react-dom": ^17.0.3
+    "@types/react-router-dom": ^5.1.7
     "@typescript-eslint/eslint-plugin": ^4.22.0
     "@typescript-eslint/parser": ^4.22.0
     attr-accept: ^2.2.2
@@ -8418,6 +8487,7 @@ __metadata:
     react-bootstrap-table-next: ^4.0.3
     react-bootstrap-table2-paginator: ^2.1.2
     react-chartjs-2: ^2.10.0
+    react-components: ^0.5.1
     react-countup: ^4.3.3
     react-datetime: ^2.16.3
     react-dom: ^17.0.2
@@ -10088,7 +10158,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"hyphenate-style-name@npm:^1.0.2":
+"hyphenate-style-name@npm:^1.0.1, hyphenate-style-name@npm:^1.0.2":
   version: 1.0.4
   resolution: "hyphenate-style-name@npm:1.0.4"
   checksum: 4cfeb47e98eab9c25e6dece20da772cc914a9f8e5ee794cf8db105b0649dd64a61d8ee8ff32acf23ae0ac181db8fcbe4a6abb2f7de48ae52b42a85bbf1aacb86
@@ -10335,6 +10405,16 @@ fsevents@^1.2.7:
   version: 1.3.8
   resolution: "ini@npm:1.3.8"
   checksum: 62189ce7ea44c5778e757e4232c581212e838f3c39e79d931bb9152fd4b9275f09fb20b96afdd60ba9f5d7996b92486cad6cc617fcb84ff4beedd1b33b86221e
+  languageName: node
+  linkType: hard
+
+"inline-style-prefixer@npm:^2.0.0":
+  version: 2.0.5
+  resolution: "inline-style-prefixer@npm:2.0.5"
+  dependencies:
+    bowser: ^1.0.0
+    hyphenate-style-name: ^1.0.1
+  checksum: 98e6786210a71048494a9a198bfc6e9878b2413c368301e9fee0649c0e4f8d5d953c7aa2148e3e790f9e8adf5081c38e94b78b56e4c256f38f1fd785f61661b5
   languageName: node
   linkType: hard
 
@@ -11182,7 +11262,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"jest-diff@npm:^26.6.2":
+"jest-diff@npm:^26.0.0, jest-diff@npm:^26.6.2":
   version: 26.6.2
   resolution: "jest-diff@npm:26.6.2"
   dependencies:
@@ -15320,7 +15400,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^26.6.0, pretty-format@npm:^26.6.2":
+"pretty-format@npm:^26.0.0, pretty-format@npm:^26.6.0, pretty-format@npm:^26.6.2":
   version: 26.6.2
   resolution: "pretty-format@npm:26.6.2"
   dependencies:
@@ -15828,6 +15908,15 @@ fsevents@^1.2.7:
     react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     react-dom: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   checksum: 81886664cc61f0cce666267311b6ca730686d22e848d93a2b08d818284e53da6d24a332ac41eae329c57ab03e867af5c8aec65fa2da41fe5226bf7004692827e
+  languageName: node
+  linkType: hard
+
+"react-components@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "react-components@npm:0.5.1"
+  dependencies:
+    aphrodite: 1.1.0
+  checksum: dba5685f06f6119790556f63d41b76afb85cfbc149ce739db76fad3f094e9936fdbf440195f41a6cd7baca47cd61a4ea493ac56fed76bb5eede39e297956f3e6
   languageName: node
   linkType: hard
 
